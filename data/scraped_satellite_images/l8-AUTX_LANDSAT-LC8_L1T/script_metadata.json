@@ -1,0 +1,13 @@
+{
+    "resolution_min": 15.0,
+    "notebook_name": "testing_earth_engine-l8-AUTX_v2",
+    "satellite": "LANDSAT/LC8_L1T",
+    "pixel_length": 25.0,
+    "crs_grid": 3857,
+    "time_bin_delta": 2419200,
+    "cache_dir": "../data/20170314-05-26-52_testing_earth_engine-l8-AUTX_v2/ee_l8_AUTX-leaks_cache_v2/ATX_",
+    "ts": "20170321-02-12-16",
+    "temp_dir": "/tmp/testing_earth_engine-l8-AUTX_v2-82dzkbkv-20170321-02-12-16",
+    "output_dir": "../data/20170314-05-26-52_testing_earth_engine-l8-AUTX_v2",
+    "bands": ["B1", "B2", "B3", "B4", "B5", "B6", "B7", "B8", "B9", "B10", "B11", "BQA"]
+}

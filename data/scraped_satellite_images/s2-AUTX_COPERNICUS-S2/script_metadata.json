@@ -1,0 +1,12 @@
+{
+    "bands": ["B1", "B2", "B3", "B4", "B5", "B6", "B7", "B8", "B8A", "B9", "B10", "B11", "B12", "QA60"],
+    "crs_grid": 3857,
+    "ts": "20170316-06-09-45",
+    "output_dir": "../data/downloaded_images_image_testing_earth_engine_s2-AUTX_v6_COPERNICUS-S2",
+    "temp_dir": "/tmp/image_testing_earth_engine_s2-AUTX_v6",
+    "satellite": "COPERNICUS/S2",
+    "pixel_length": 25.0,
+    "resolution_min": 10.0,
+    "notebook_name": "image_testing_earth_engine_s2-AUTX_v6",
+    "cache_dir": "../data/downloaded_images_image_testing_earth_engine_s2-AUTX_v6_COPERNICUS-S2/cache"
+}
