@@ -1,0 +1,50 @@
+# main
+arrow
+tqdm
+dataset
+
+# sci
+pandas
+scipy
+numpy
+matplotlib
+seaborn
+pandas_profiling
+
+# geometry/spatial
+shapely
+geopandas
+fiona>=1.7.1
+rasterio
+
+# images
+pillow
+
+# io
+path.py
+fastkml
+pyshp
+tabulate
+
+# view
+folio
+
+# for google earth engine
+oauth2client>=4.0.0
+google-api-python-client>=1.6.1
+pyCrypto>-2.6.1
+pyOpenSSL>=0.11
+earthengine-api>=0.1.102
+
+# machine learning
+#tensorflow==0.11.0rc2
+#keras==1.1.1
+# you will need to manually download the gpu version of tensorflow https://www.tensorflow.org/install/install_linux
+tensorflow-gpu>=1.0.0
+keras>=1.2.2
+scikit-learn>=0.18.1
+h5py
+## better tqdm performance in jupyter notebook
+https://github.com/rohitrawat/keras-tqdm/archive/072802d0931479ccc46eb2ee0a3f5ce11b6ea347.zip
+# hyperopt==0.1
+https://github.com/hyperopt/hyperopt/archive/ba2fe77df0c6699a594eb83d8706dbb87e61cd5a.zip
