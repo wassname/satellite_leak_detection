@@ -71,7 +71,7 @@ The results support our hypothesis, that machine learning can use satellite imag
 
 # Aknowledgements
 
-Landgate's SPUR team awarded us a grant and supported this project. Thanks to the people at Austin Water who were helpful in releasing the Water Repair data.
+Landgate's SPUR team awarded us a grant and supported this project. Thanks to the people at Austin Water who were helpful in releasing the Water Repair data. Thanks for Ali Jeney for her assistance.
 
 # References
 
