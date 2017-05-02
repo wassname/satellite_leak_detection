@@ -20,10 +20,13 @@ We have a dataset of leak repairs which was obtained by a freedom of information
 
 Leaks locations have been combined with satellite images taken before or after a leak repair. Images *t* days before a leak were classified as positive examples of leaks – where t is a parameter determined by experimentation to be 1.5 days (See the appendix). Images after a leak are classified as negative examples. Images were downloaded from Google Earth Engine but many satellites only pass over once a week so not every leak has corresponding images. For more see [the scraping notebooks](notebooks/scraped_satellite_images) and the readme files for each dataset. An example of this data is below:
 
+![](images/Example_of_S2_with_leak.png)
 
-![](images/Example_of_S2.png)
+*An example of a sentinel-2 image 1 day before a leak repair near 608 Morrow St, Austin TX*
 
-*An example of a sentinel-2 image centered on a leak*
+![](images/Example_of_S2_without_leak.png)
+
+*An example of a sentinel-2 image 100 days after a leak repair near 608 Morrow St, Austin TX*
 
 
 | dataset                     |  Satellite   |  Leak dataset  |  Resolution *  |
@@ -65,6 +68,10 @@ Our results show that random forest can improve on dummy benchmarks. However the
 The results support our hypothesis, that machine learning can use satellite images (of 10m2 resolution) to predict water leaks. However the f1-scores indicate that the predictions that are too unreliable to be used in the field.
 
  The largest limitation in this experiment was the resolution of satellite images. We expect better results with higher resolution images, unfortunately only a limited amount of high resolution imagery is available in 2017. Using the entire Digital Globe catalog would yield around 20 overlaps with our leaks datasets and the same goes for the high resolution US National Agriculture Imagery Program (NAIP). We expect that repeating this experiment when higher resolution imagery is available will yield improved predictions.
+
+# Aknowledgements
+
+Landgate's SPUR team awarded us a grant and supported this project. Thanks to the people at Austin Water who were helpful in releasing the Water Repair data.
 
 # References
 
