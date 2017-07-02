@@ -2,9 +2,9 @@
 
 **DRAFT 2017-05-01**
 
-*Michael Clark, Craig Baldacchino*
+*Michael Clark (michael.clark via wassname dot org), Craig Baldacchino*
 
-This project explores the idea that we can find leaks using satellite images and machine learning. The primary hypothesis is that given the time and place of leak repairs and given satellite images of 10-15m2 resolution we can predict leaks better than a baseline defined by random guessing. We a random forest model then tweak the data filters and model parameters using hyper-optimization. Our results give a f1-score of around 0.6 compared to a dummy f1-score of 0.5. This small improvement supports our hypothesis but the it represents a predictive capability is too poor to be used for pipe maintenance. We anticipate that repeating the experiment with higher resolution imagery may give useful levels of predictive capability.
+This project explores the idea that we can find leaks using satellite images and machine learning. The primary hypothesis is that given the time and place of leak repairs and given satellite images of 10-15m2 resolution we can predict leaks better than a baseline defined by random guessing. We use a random forest model then we tweak the data filters and model parameters using hyper-optimization. Our results give an f1-score of around 0.6 compared to a dummy f1-score of 0.5. This small improvement supports our hypothesis but it represents a predictive capability is too poor to be used for pipe maintenance. We anticipate that repeating the experiment with higher resolution imagery may give useful levels of predictive capability.
 
 # Introduction
 
