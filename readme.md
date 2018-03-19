@@ -99,6 +99,8 @@ The main files are
 - `notebooks/2a_hyperopt.ipynb` where I try varied filters to see which has the most predictive power
 - `notebooks/2_model.ipynb` which is a jupyter-notebook script for python 3.
 
+You can download the raw satellite data used at [this](https://drive.google.com/file/d/16umS6wq6WMXflZp-Irluki7OXYsoxrpQ/view?usp=sharing) link. If the link is dead please email data at wassname followed by org.
+
 ## Data filters
 
 We have many options for filtering the data including balancing datasets, jittering value, augumenting data, and filtering out cloudy images. The most important parameter is "timespan_before", here we decide how long we will allow between a satellite image and a leak repair. If we choose to long we will have a image of a pipe before it started leaking, and if we choose to short a time we will reduce our dataset.
