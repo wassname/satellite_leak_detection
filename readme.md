@@ -1,5 +1,14 @@
 # Leak detection
 
+
+UPDATE 2025-03-20
+
+Since a few people have asked me about this, and I haven't had time to respond, here's a general update:
+
+My retrospective is this: we found that the method of detecting water leaks from satellite heat images seems to work for large leaks in hot countries. I would be skeptical that it would work in cold and wet countries as the heat contrast may not be there. You also need to distinguish it from irrigation, for example if irrigation always occurs at 6am, but satellites fly over at 7am, you will pick up surface water. We used low resolution satellite images in our experiments (meters per pixel), so it may well work on smaller leaks if you use high resolution satellite or drone images, but this can get more expensive to test. We did find there was some appetite from water companies to try this out, especially if they were experimenting with drones or aerial imagery already.
+
+
+
 **DRAFT 2017-05-01**
 
 *Michael Clark (michael.clark via wassname dot org), Craig Baldacchino*
